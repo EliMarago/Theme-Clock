@@ -16,6 +16,7 @@ toggleEl.addEventListener("click", function (e) {
     e.target.innerHTML = "Light Mode";
   }
 });
+//trasforma un numero da un intervallo (range) a un altro.
 const scale = function (num, in_min, in_max, out_min, out_max) {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
 };
